@@ -1,0 +1,6 @@
+a=input("Enter a word:")
+print("length of the string is: ",len(a))
+lowercase=a.lower()
+uppercase=a.upper()
+print(lowercase)
+print(uppercase)
