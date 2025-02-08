@@ -1,9 +1,9 @@
-a=input("Enter a word:")
-a.lower()
+word=input("Enter a string:")
+word.lower()
 vowels = ['a', 'e', 'i', 'o', 'u']
 b=0
 c=0
-for char in a:
+for char in word:
     if char.isalpha():
         if char in vowels:
             b+=1

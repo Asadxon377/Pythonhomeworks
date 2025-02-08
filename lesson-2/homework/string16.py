@@ -1,4 +1,4 @@
 
-a=input("Enter string: ")
-b=input("Enter character you wanna delete: ")
-print(a.replace(b,""))
+string=input("Enter string: ")
+letter_delete=input("Enter character you wanna delete: ")
+print(string.replace(letter_delete,""))

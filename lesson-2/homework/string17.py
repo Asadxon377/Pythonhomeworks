@@ -1,4 +1,4 @@
-a=input("Enter a string: ")
+string=input("Enter a string: ")
 vowels="aeiouAEIOU"
-b="".join("@" if char in vowels else char for char in a )
-print(b)
+b="".join("@" if char in vowels else char for char in string )
+print("using @ instead of vowels: ",b)

@@ -1,4 +1,4 @@
-a=input("Enter a sentence: ")
-b=a.split()
-print("Starts with: ", b[0])
-print("Ends with: ", b[-1])
+sentence= input("Enter a sentence: ")
+start = input("Starts with: ")
+end = input("Ends with: ")
+print("Match" if sentence.startswith(start) and sentence.endswith(end) else "No match")

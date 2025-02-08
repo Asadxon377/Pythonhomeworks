@@ -1,7 +1,4 @@
-a=input("Enter a word 1:")
-b=input("Enter a word 2:")
-c=0
-if a in b or b in a:
-    print("Yes")
-else:
-    print("No")
+word1=input("Enter a string 1:")
+word2=input("Enter a string 2:")
+
+print(f"'{word1}' is in '{word2}':{word2 in word1}")

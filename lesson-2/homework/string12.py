@@ -1,2 +1,2 @@
-a=input("Enter a sentence: ")
-print(a.replace(' ','-'))
+sentence=input("Enter a sentence: ")
+print("using - : ",sentence.replace(' ','-'))

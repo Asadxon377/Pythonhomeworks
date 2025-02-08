@@ -1,4 +1,4 @@
-a=input("Enter a word:")
-b=len(a)-1
-print("first letter: ",a[0])
-print("last letter: ",a[-1])
+word=input("Enter a word:")
+length=len(word)-1
+print("first letter: ",word[0])
+print("last letter: ",word[-1])

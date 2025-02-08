@@ -1,2 +1,2 @@
-a=input("Enter a string: ")
-print(a.replace(" ",""))
+string=input("Enter a string: ")
+print("without spaces: ",string.replace(" ",""))

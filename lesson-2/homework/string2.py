@@ -1,6 +1,6 @@
-a="LMaasleitbtui"
-Malibu=a[1]+a[2]+a[5]+a[7]+a[9]+a[11]
-tesla=a[8]+a[6]+a[4]+a[5]+a[3]
+letters="LMaasleitbtui"
+Malibu=letters[1]+letters[2]+letters[5]+letters[7]+letters[9]+letters[11]
+tesla=letters[8]+letters[6]+letters[4]+letters[5]+letters[3]
 
 c=tesla.lower()
 print(Malibu)
